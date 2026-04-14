@@ -1,0 +1,70 @@
+= Awesome Android Music-Making
+
+This is a collection of apps that run on Android & can be used to create music.
+
+.Icon legend
+[cols="s,,~"]
+|===
+| Category | Icon | Meaning
+
+.3+| Cost
+^| 💰
+| Paid app
+
+^| 💸
+| In-app purchase (typically means an app (paid or free) has some functionality that requires payment to access)
+
+^| 🆓
+| Free demo version available (this implies the app is paid)
+
+.5+| Function
+^| 🎺
+| Virtual instrument
+
+^| ⏺️
+| Recorder
+
+^| 🎚️
+| Effects
+
+^| 🎹
+| Controller
+
+^| 🔁
+| Sequencer
+
+| Technical
+^| 🛠️
+| APK unavailable (this means you will need to build the app from source yourself)
+|===
+
+== Open source
+
+* *https://github.com/atsushieno/aap-core[AAP (Android Audio Plugin)]*: The whole project is a must-see.
+The author is basically single-handedly trying to stand up an entire plugin ecosystem for Android, and they've done a staggering amount of work to not only define the format, but bootstrap actual usable software that uses it.
+They maintain a https://github.com/atsushieno/aap-core/wiki/List-of-AAP-plugins-and-hosts[wiki page] listing AAP plugins and hosts, which as of 2026-04-14 predominantly comprises ports of various open-source plugins to AAP via wrappers.
++
+NOTE: These ports are of varying degrees of readiness.
+They primarily serve as proof of concept, so you will need to check them out individually to determine if they're usable to you.
++
+The list of plugins includes, among many others:
++
+  ** Vital
+  ** Surge XT
+  ** MDA
+  ** Dexed
+  ** airwindows
+
++
+All of these can be used as standalone apps and controlled via MIDI.
+* *https://github.com/guysoft/midistrum[Midistrum]* 🎹: A neat "chord strummer".
+
+== Closed source
+
+* *https://play.google.com/store/apps/details?id=com.geka000.digitron&hl=en-US[Digitron]* 💰🆓💸🎺🔁: Semi-modular synth.
+* *https://play.google.com/store/apps/details?id=com.imaginando.drc&hl=en[DRC]* 💰🆓💸🎺🎹⏺️: A lovely virtual analogue polysynth with integrated chord strumming controller (!) and MPE support.
+* *https://play.google.com/store/apps/details?id=de.ogsus.elasticosc.paid&hl=en-US[Elastic OSC]* 💰🆓💸🎺: An implementation of Mutable Instruments's amazing Plaits module.
+* *https://play.google.com/store/apps/details?id=com.imaginando.lk&hl=en-US[LK]* 💰🆓💸🎹🔁: A powerful controller for MIDI and Ableton Live.
+Has a chord strumming controller like DRC.
+Lets you design custom controller layouts too, in addition to offering standards such as an XY(Z) pad.
+* *https://play.google.com/store/search?q=synprezfm&c=apps&hl=en[SynprezFM II]* 🎺: A Yamaha DX7 emulator.
